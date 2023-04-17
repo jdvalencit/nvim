@@ -5,7 +5,7 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers = { "rust_analyzer", "sumneko_lua", "taplo"}
+local servers = { "rust_analyzer", "sumneko_lua", "taplo", "gopls", "kotlin_language_server"}
 
 lsp_installer.setup {
 	ensure_installed = servers
